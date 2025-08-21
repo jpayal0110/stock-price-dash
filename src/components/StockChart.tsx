@@ -174,7 +174,7 @@ const StockChart: React.FC<StockChartProps> = ({ stocks, selectedStock, onStockS
         <div className="flex space-x-2">
           <button
             onClick={() => setChartType('line')}
-            className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 ${
+            className={`px-4 py-2 rounded-lg font-medium flex items-center space-x-2 ${
               chartType === 'line' 
                 ? 'bg-primary-600 text-white' 
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
@@ -185,7 +185,7 @@ const StockChart: React.FC<StockChartProps> = ({ stocks, selectedStock, onStockS
           </button>
           <button
             onClick={() => setChartType('bar')}
-            className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 ${
+            className={`px-4 py-2 rounded-lg font-medium flex items-center space-x-2 ${
               chartType === 'bar' 
                 ? 'bg-primary-600 text-white' 
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
@@ -196,7 +196,7 @@ const StockChart: React.FC<StockChartProps> = ({ stocks, selectedStock, onStockS
           </button>
           <button
             onClick={() => setChartType('pie')}
-            className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 ${
+            className={`px-4 py-2 rounded-lg font-medium flex items-center space-x-2 ${
               chartType === 'pie' 
                 ? 'bg-primary-600 text-white' 
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
@@ -223,7 +223,7 @@ const StockChart: React.FC<StockChartProps> = ({ stocks, selectedStock, onStockS
           <div
             key={stock.symbol}
             onClick={() => onStockSelect(stock)}
-            className={`p-3 rounded-lg border cursor-pointer transition-all duration-200 ${
+            className={`p-3 rounded-lg border cursor-pointer ${
               selectedStock?.symbol === stock.symbol
                 ? 'border-primary-500 bg-primary-50'
                 : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'

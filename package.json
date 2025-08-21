@@ -1,5 +1,5 @@
 {
-  "name": "stock-price-dashboard",
+  "name": "pebble-stocks",
   "version": "1.0.0",
   "description": "A real-time stock price dashboard built with React, TypeScript, and Tailwind CSS",
   "private": true,

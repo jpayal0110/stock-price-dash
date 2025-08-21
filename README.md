@@ -1,8 +1,15 @@
-# Stock Price Dashboard
+# PebbleStocks - Smart Stock Analytics
 
 A modern, responsive stock price dashboard built with React, TypeScript, and Tailwind CSS. This application provides real-time stock data visualization with both table and chart views.
 
 ## 🚀 Features
+
+### ✨ **New Enhanced Features**
+- **Single Page Design**: Beautiful hero section with seamless flow to dashboard
+- **View Toggle**: Easy switching between Stock Table and Charts views
+- **Emoji Indicators**: Visual indicators for stock performance (📈📉🚀💸)
+- **Extended Data**: 12+ major stocks with comprehensive market information
+- **Unified Experience**: Everything on one page for better user flow
 
 ### Core Requirements ✅
 - **Stock Data Table**: Displays stock symbols, prices, change percentages, and volume

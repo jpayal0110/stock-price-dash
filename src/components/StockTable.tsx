@@ -116,7 +116,7 @@ const StockTable: React.FC<StockTableProps> = ({ stocks, onStockSelect }) => {
           {sortedStocks.map((stock) => (
             <tr 
               key={stock.symbol} 
-              className="hover:bg-gray-50 transition-colors duration-150 cursor-pointer"
+                              className="hover:bg-gray-50 cursor-pointer"
               onClick={() => onStockSelect(stock)}
             >
               <td className="table-cell">
@@ -142,18 +142,20 @@ const StockTable: React.FC<StockTableProps> = ({ stocks, onStockSelect }) => {
               </td>
               
               <td className="table-cell">
-                <div className={`text-sm font-medium ${
+                <div className={`text-sm font-medium flex items-center space-x-2 ${
                   stock.change >= 0 ? 'text-success-600' : 'text-danger-600'
                 }`}>
-                  {stock.change >= 0 ? '+' : ''}{stock.change.toFixed(2)}
+                  <span>{stock.change >= 0 ? '📈' : '📉'}</span>
+                  <span>{stock.change >= 0 ? '+' : ''}{stock.change.toFixed(2)}</span>
                 </div>
               </td>
               
               <td className="table-cell">
-                <div className={`text-sm font-medium ${
+                <div className={`text-sm font-medium flex items-center space-x-2 ${
                   stock.changePercent >= 0 ? 'text-success-600' : 'text-danger-600'
                 }`}>
-                  {stock.changePercent >= 0 ? '+' : ''}{stock.changePercent.toFixed(2)}%
+                  <span>{stock.changePercent >= 0 ? '🚀' : '💸'}</span>
+                  <span>{stock.changePercent >= 0 ? '+' : ''}{stock.changePercent.toFixed(2)}%</span>
                 </div>
               </td>
               

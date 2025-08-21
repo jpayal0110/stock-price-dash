@@ -78,6 +78,78 @@ const MOCK_STOCKS: StockData[] = [
     open: 308.00,
     high: 314.00,
     low: 307.50
+  },
+  {
+    symbol: 'NVDA',
+    price: 485.09,
+    change: 12.34,
+    changePercent: 2.61,
+    volume: 45678900,
+    marketCap: 1190000000000,
+    previousClose: 472.75,
+    open: 473.00,
+    high: 487.50,
+    low: 471.80
+  },
+  {
+    symbol: 'NFLX',
+    price: 485.09,
+    change: -8.76,
+    changePercent: -1.77,
+    volume: 34567800,
+    marketCap: 215000000000,
+    previousClose: 493.85,
+    open: 494.00,
+    high: 495.20,
+    low: 483.50
+  },
+  {
+    symbol: 'AMD',
+    price: 128.45,
+    change: 3.21,
+    changePercent: 2.56,
+    volume: 67890100,
+    marketCap: 207000000000,
+    previousClose: 125.24,
+    open: 125.50,
+    high: 129.00,
+    low: 125.00
+  },
+  {
+    symbol: 'INTC',
+    price: 44.67,
+    change: -0.89,
+    changePercent: -1.95,
+    volume: 45678900,
+    marketCap: 189000000000,
+    previousClose: 45.56,
+    open: 45.60,
+    high: 45.80,
+    low: 44.50
+  },
+  {
+    symbol: 'CRM',
+    price: 267.56,
+    change: 5.43,
+    changePercent: 2.07,
+    volume: 23456700,
+    marketCap: 260000000000,
+    previousClose: 262.13,
+    open: 262.50,
+    high: 268.00,
+    low: 262.00
+  },
+  {
+    symbol: 'ORCL',
+    price: 125.34,
+    change: -2.15,
+    changePercent: -1.69,
+    volume: 34567800,
+    marketCap: 340000000000,
+    previousClose: 127.49,
+    open: 127.50,
+    high: 127.80,
+    low: 125.00
   }
 ];
 

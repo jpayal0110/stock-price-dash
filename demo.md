@@ -2,9 +2,15 @@
 
 ## 🚀 Live Demo
 
-Your application is now running at: **http://localhost:3000**
+Your application is now running at: **http://localhost:4000**
 
 ## ✨ Features to Explore
+
+### 0. **Hero Section** 🏠
+- **Welcome Screen**: Beautiful introduction to PebbleStocks at the top
+- **Feature Highlights**: Smart analytics, real-time data, reliability
+- **Market Stats**: Overview of available features
+- **Single Page**: Everything flows seamlessly on one page
 
 ### 1. **Stock Data Table** 📊
 - **View**: Click the "Table" button to see the main stock data
@@ -13,12 +19,21 @@ Your application is now running at: **http://localhost:3000**
 - **Responsive**: Table adapts to mobile and desktop screens
 
 ### 2. **Interactive Charts** 📈
+- **Multiple Views**: Switch between Table and Charts seamlessly
+- **View Toggle**: Easy switching between different data views
+- **Single Page**: All content flows naturally on one page
 - **Line Chart**: Shows price trends across stocks
 - **Bar Chart**: Visualizes stock prices as bars
 - **Pie Chart**: Displays change percentages distribution
 - **Switch Views**: Use the chart type buttons to explore different visualizations
 
-### 3. **Search & Filter** 🔍
+### 3. **Enhanced Data Display** 📊
+- **Emoji Indicators**: 📈📉🚀💸 for visual stock performance
+- **Extended Stock List**: 12+ major stocks with comprehensive data
+- **Market Cap Display**: Additional financial metrics
+- **Quick Actions**: Easy navigation and refresh options
+
+### 4. **Search & Filter** 🔍
 - **Real-time Search**: Type in the search bar to filter stocks
 - **Debounced Input**: Search updates automatically after typing
 - **Clear Search**: Click the X button to reset search
